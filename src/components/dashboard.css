@@ -1,0 +1,29 @@
+.panel {
+  border: 1px solid lightgray;
+  border-radius: 2%;
+  flex-direction: row;
+  width: 300px !important;
+  text-align: left;
+  margin: 2% !important;
+  flex-direction: column;
+}
+.topimage {
+  height: 8rem;
+  background-color: indianred;
+}
+.box h4 {
+  text-align: left;
+}
+
+.button {
+  text-align: right;
+}
+.button button {
+  color: lightgreen;
+  border: 1px solid lightgreen;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.button button :hover {
+  cursor: pointer;
+}
